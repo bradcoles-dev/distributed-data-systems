@@ -63,30 +63,55 @@ The work in this repository is guided by a few consistent principles:
 ## Repository structure
 
 distributed-data-systems/
+
 ├── foundations/
+
 │ ├── consistency-models.md
+
 │ ├── exactly-once-semantics.md
+
 │ └── schema-evolution.md
+
 ├── batch-and-streaming/
+
 │ ├── spark-internals.md
+
 │ ├── structured-streaming-design.md
+
 │ └── backfills-at-scale.md
+
 ├── ml-infrastructure/
+
 │ ├── feature-store-architecture.md
+
 │ ├── offline-online-consistency.md
+
 │ └── model-lineage.md
+
 ├── platform-infrastructure/
+
 │ ├── lakehouse-storage-design.md
+
 │ ├── metadata-systems.md
+
 │ └── multi-tenant-isolation.md
+
 ├── governance-and-compliance/
+
 │ ├── lineage-at-scale.md
+
 │ ├── privacy-by-design.md
+
 │ └── auditability.md
+
 └── postmortems/
+
 ├── schema-change-outage.md
+
 ├── streaming-backpressure.md
+
 └── cost-explosion.md
+
 
 
 The structure reflects **problem classes**, not companies or tools. Individual artifacts may reference specific technologies (Spark, Kafka, Iceberg, cloud platforms) where necessary.
